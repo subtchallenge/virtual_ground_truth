@@ -1,0 +1,15 @@
+<launch>
+
+  <arg name="rviz" default="true"/>
+  <arg name="course" default="final_event_08" doc="world name"/>
+
+  <!-- Load Point Cloud -->
+  <node pkg="virtual_ground_truth" type="load_pcd" name="scan" args="$(find virtual_ground_truth)/data/$(arg course).pcd 0">
+    <param name="frame_id" value="darpa"/>
+    <remap from="cloud_pcd" to="/scan"/>
+    <param name="latch" value="true"/>
+  </node>
+
+  <node if="$(arg rviz)" pkg="rviz" type="rviz" name="rviz" output="screen" args="-d $(find virtual_ground_truth)/launch/view_virtual.rviz"/>
+
+</launch>
