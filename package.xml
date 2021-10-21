@@ -1,0 +1,14 @@
+<package format="2">
+  <name>virtual_ground_truth</name>
+  <version>1.0.0</version>
+  <description>
+    Point cloud data for SubT Challenge Virtual Competition worlds
+  </description>
+  <maintainer email="angela.c.maio.civ@mail.mil">Angela Maio</maintainer>
+  <license>None</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <depend>pcl_ros</depend>
+
+</package>
