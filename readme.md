@@ -14,8 +14,7 @@ To visualize the point clouds, run `roslaunch virtual_ground_truth view.launch`.
 
 ### Links ###
 
-* Virtual Worlds
-    * SubT Tech Repo ("Worlds" tab): https://subtchallenge.world/openrobotics/fuel/collections/SubT%20Tech%20Repo
+* Virtual Worlds -- [SubT Tech Repo](https://subtchallenge.world/openrobotics/fuel/collections/SubT%20Tech%20Repo) ("Worlds" tab)
 
 ### Contact Information ###
 
