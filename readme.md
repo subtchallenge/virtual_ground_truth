@@ -5,6 +5,7 @@ This repo provides point cloud data for the DARPA Subterranean Challenge Virtual
 ### Files ###
 
 * data/_worldname_.pcd -- Point cloud sampled from each virtual world mesh, defined in the DARPA Cartesian coordinate frame.
+* artifacts/_worldname_.csv -- Text file listing each artifact (model name) and x, y, z location in the DARPA Cartesian coordinate frame.
 
 ### Course Visualization in RViz ###
 
